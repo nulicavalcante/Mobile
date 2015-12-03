@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Empresa Vencetex</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="carteira">CARTEIRA DE CLIENTES</string>
+</resources>

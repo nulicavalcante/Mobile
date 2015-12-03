@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="listview.com.example.aluno.nuli.projetonuli.TarefaActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/add_tarefa" android:title="@string/addTarefa"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/tarefa_ok" android:title="@string/okTarefa"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/tarefa_not" android:title="@string/notOkTarefa"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/tarefa_todas" android:title="@string/todasTarefas"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>

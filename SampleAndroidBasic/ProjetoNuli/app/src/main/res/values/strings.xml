@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Projeto Nuli</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Voltar</string>
+    <string name="categoria">Categorias</string>
+    <string name="title_activity_new_user">Novo Usuário</string>
+    <string name="title_activity_add_tarefa">Nova Tarefa</string>
+    <string name="title_activity_edit_tarefa">Editar Tarefa</string>
+    <string name="title_activity_update_user">Atualizar Usuário</string>
+    <string name="title_activity_tarefa">Tarefas</string>
+    <string name="title_activity_categoria">Categorias</string>
+    <string name="title_activity_add_categ">Editar Categoria</string>
+    <string name="excluir">Excluir</string>
+    <string name="addTarefa">Nova Tarefa</string>
+    <string name="okTarefa">Realizadas</string>
+    <string name="notOkTarefa">Pendentes</string>
+    <string name="todasTarefas">All Users Teste</string>
+
+</resources>

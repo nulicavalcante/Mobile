@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="listview.com.example.aluno.nuli.projetonuli.AddTarefaActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição da Tarefa"
+        android:id="@+id/textViewDescricao"
+         />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtDescricao"
+        android:layout_below="@+id/textViewDescricao"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Limite"
+        android:id="@+id/textViewDataLimite"
+        android:layout_below="@+id/edtDescricao"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/edtDataLimite"
+        android:layout_below="@+id/textViewDataLimite"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Lembrete"
+        android:id="@+id/textViewDataLembrete"
+        android:layout_below="@+id/edtDataLimite"
+         />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/edtDataLembrete"
+        android:layout_below="@+id/textViewDataLembrete"
+         />
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spCategorias"
+        android:layout_below="@+id/edtDataLembrete"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:id="@+id/btSalvarTarefa"
+        android:layout_below="@+id/spCategorias"
+        android:layout_alignEnd="@+id/spCategorias" />
+
+
+
+
+</RelativeLayout>

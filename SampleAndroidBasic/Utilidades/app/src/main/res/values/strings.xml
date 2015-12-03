@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Utilidades</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_populacao">População</string>
+    <string name="cresc_pop">CRESCIMENTO POPULACIONAL</string>
+    <string name="indice">Índice:</string>
+    <string name="anos">Anos:</string>
+    <string name="pop_mundial">População mundial atual:</string>
+    <string name="title_activity_imc_">Cálculo do IMC</string>
+    <string name="imc">CÁLCULO DO IMC</string>
+    <string name="altura">ALTURA</string>
+    <string name="peso">PESO</string>
+    <string name="btn_estimar">Estimar</string>
+    <string name="btn_calcular">Calcular</string>
+    <string name="title_activity_calculadora">Calculadora</string>
+</resources>

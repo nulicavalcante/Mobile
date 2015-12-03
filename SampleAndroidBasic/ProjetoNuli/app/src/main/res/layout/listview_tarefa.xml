@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tarefa"
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_orange_light"
+        android:id="@+id/txtTarefa"
+        android:padding="@dimen/components"
+        android:layout_marginBottom="@dimen/components"/>
+
+    <LinearLayout
+        android:padding="@dimen/components"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/components">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Data Limite: "
+            android:layout_weight="1"
+            android:gravity="left"
+            android:id="@+id/txtDataLimite" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:text="Data Lembrete: "
+            android:id="@+id/txtDataLembrete" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Data Realização: "
+        android:id="@+id/txtDataRealizacao"
+        android:padding="@dimen/components"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Peso Ideal</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="txtAltura">Altura:</string>
+    <string name="txtSexo">Sexo:</string>
+    <string name="sexoF">Feminino</string>
+    <string name="sexoM">Masculino</string>
+    <string name="btnCalcular">Calcular peso ideal</string>
+</resources>
